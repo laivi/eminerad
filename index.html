@@ -46,7 +46,7 @@
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
+			        <span class="sr-only"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
@@ -83,9 +83,9 @@
 						<!-- Start center Logo -->
 						<div class="mu-logo-area">
 							<!-- text based logo -->
-							<a class="mu-logo" href="#">II EMINERAD</a>
+							<!--<a class="mu-logo" href="#">II EMINERAD</a>-->
 							<!-- image based logo -->
-							<!-- <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
+							<a class="mu-logo"><img src="assets/images/logo-eminerad-horiz.png" alt="logo img"></a>
 						</div>
 						<!-- End center Logo -->
 
@@ -154,26 +154,120 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title">Programação</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+								<p>Confira toda a programação do evento.</p>
 							</div>
 
 							<div class="mu-schedule-content-area">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 19 Feb</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
-								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li>
-								    
+								    <li role="presentation" class="active"><a href="#administracao" aria-controls="administracao" role="tab" data-toggle="tab">Administração</a></li>
+								    <li role="presentation"><a href="#mineracao" aria-controls="mineracao" role="tab" data-toggle="tab">Mineração</a></li>
 								</ul>
 
-								<!-- Tab panes -->
+								<!-- Tab days -->
 								<div class="tab-content mu-schedule-content">
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
+									<div role="tabpanel" class="tab-pane fade mu-schedule-menu in active" id="administracao">
+										<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
+												<li role="presentation" class="active"><a href="#first-day-adm" aria-controls="first-day-adm" role="tab" data-toggle="tab">1 Dia / 21 Nov</a></li>
+												<li role="presentation"><a href="#second-day-adm" aria-controls="second-day-adm" role="tab" data-toggle="tab">2 Dia / 22 Nov</a></li>
+											</ul>
+									</div>
+
+									<div role="tabpanel" class="tab-pane fade mu-schedule-menu" id="mineracao">
+											<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
+												<li role="presentation" class="active"><a href="#first-day-min" aria-controls="first-day-min" role="tab" data-toggle="tab">1 Dia / 21 Nov</a></li>
+												<li role="presentation"><a href="#second-day-min" aria-controls="second-day-min" role="tab" data-toggle="tab">2 Dia / 22 Nov</a></li>
+											</ul>
+									</div>
+								</div>
+
+								<!-- Tab panes -->
+								<div class="tab-content mu-schedule-content">	
+
+									<!-- Timeline tabs days Adm -->
+								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day-adm">
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">13h00min - 13h20min</p>
+								    				<h3>Credenciamento</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">13h20m - 14h20m</p>
+								    				<h3>[Palestra] Convivência com o Semiárido para o empreendedorismo sustentável</h3>
+								    				<span>Esp. José Moacir dos Santos, pedagogo na equipe de ATER e coordenador de projetos sociais do Irpaa</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">14h20m - 15h20m</p>
+								    				<h3>[Palestra] Indicação Geográfica: potencialidades do semiárido brasileiro</h3>
+								    				<span>Esp. Alessandra Sousa Cordeiro de Sá, colaboradora do NIT-ISA IF Sertão/PE</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">15h20m - 15h40m</p>
+								    				<h3>Coffee break</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">15h40m - 16h40m</p>
+													<h3>[Palestra] Empreendedorismo social: o caso Enactus Univasf</h3>
+													<span><p>Esp. Aluísio Sampaio Neto, presidente da Enactus/UNIVASF</p></span>
+													<span><p>Ana Paula Cavalcante de Santana, Gestora de Projetos da Enactus/UNIVASF</p></span>
+													<span><p>Crhislany Barbosa Santos, Assistente de Projetos da Enactus/UNIVASF</p></span>
+								    			</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">16h40m - 17h40m</p>
+													<h3>[Palestra] Licenciamento ambiental: o primeiro passo para o sucesso do seu empreendimento</h3>
+													<span>Me. Daíse Souza Reis, Engenheira Agrícola e Ambiental</span>
+												</div>
+											</li>
+											<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">18h15m - 18h30m</p>
+													<h3>Credenciamento</h3>
+								    			</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">18h30m - 19h00m</p>
+													<h3>Apresentação artística e cultural</h3>
+												</div>
+											</li>
+											<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">19h00m - 19h45m</p>
+													<h3>Abertura oficial</h3>
+								    			</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">19h45m - 21h15m</p>
+													<h3>Mesa redonda: Políticas públicas de desenvolvimento do empreendedorismo sustentável na mineração do estado do Piauí</h3>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">21h15m - 21h45m</p>
+													<h3>Coffee break</h3>
+												</div>
+											</li>
+								    	</ul>
+								    </div>
+								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day-adm">
+								    	<ul>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">8h00m - 12h20m</p>
+													<h3>[Minicurso] Curso Básico de Propriedade Intelectual</h3>
+													<span>Esp. Alessandra Sousa Cordeiro de Sá, colaboradora do NIT-ISA IF Sertão/PE</span>
 								    			</div>
 								    		</li>
 								    		<li>
@@ -207,88 +301,89 @@
 								    			</div>
 								    		</li>
 								    	</ul>
-								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="third-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    
+									</div>
+									
+									<!-- Timeline tabs days Min -->
+								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="first-day-min">
+											<ul>
+												<li>
+													<div class="mu-single-event">
+														<p class="mu-event-time">9.00 AM</p>
+														<h3>Breakfast</h3>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<img src="assets/images/speaker-1.jpg" alt="event speaker">
+														<p class="mu-event-time">10.00 AM</p>
+														<h3>Advanced SVG Animations</h3>
+														<span>By Karl Groves</span>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<img src="assets/images/speaker-2.jpg" alt="event speaker">
+														<p class="mu-event-time">11.00 AM</p>
+														<h3>Presenting Work with Confidence</h3>
+														<span>By Sarah Dransner</span>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<img src="assets/images/speaker-3.jpg" alt="event speaker">
+														<p class="mu-event-time">12.00 AM</p>
+														<h3>Keynote on UX & UI Design</h3>
+														<span>By Ned Stark</span>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<p class="mu-event-time">1.00 PM</p>
+														<h3>The End</h3>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day-min">
+											<ul>
+												<li>
+													<div class="mu-single-event">
+														<p class="mu-event-time">9.00 AM</p>
+														<h3>Breakfast</h3>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<img src="assets/images/speaker-1.jpg" alt="event speaker">
+														<p class="mu-event-time">10.00 AM</p>
+														<h3>Advanced SVG Animations</h3>
+														<span>By Karl Groves</span>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<img src="assets/images/speaker-2.jpg" alt="event speaker">
+														<p class="mu-event-time">11.00 AM</p>
+														<h3>Presenting Work with Confidence</h3>
+														<span>By Sarah Dransner</span>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<img src="assets/images/speaker-3.jpg" alt="event speaker">
+														<p class="mu-event-time">12.00 AM</p>
+														<h3>Keynote on UX & UI Design</h3>
+														<span>By Ned Stark</span>
+													</div>
+												</li>
+												<li>
+													<div class="mu-single-event">
+														<p class="mu-event-time">1.00 PM</p>
+														<h3>The End</h3>
+													</div>
+												</li>
+											</ul>
+										</div>								    
 								</div>
 
 							</div>
