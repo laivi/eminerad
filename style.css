@@ -249,7 +249,6 @@ button:focus {
 	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	font-weight: 600;
-	padding: 5px 20px;
 }
 
 .mu-logo-2 {
@@ -260,6 +259,7 @@ button:focus {
 	display: inline-block;
 	font-weight: 600;
 	padding: 5px 20px;
+	margin-top: 10px;
 }
 
 .mu-logo-3 {
@@ -1589,7 +1589,7 @@ button:focus {
 	}
 
 	.mu-logo {
-		margin-bottom: 10px;
+
 		font-size: 30px;
 	}
 
